@@ -37,6 +37,7 @@ var app = {
       console.log("click scan");
 
       cordova.plugins.barcodeScanner.scan(
+        document.getElementById('target').innerHTML = 'start scan';
      function (result) {
        document.getElementById('target').innerHTML = 'click scan';
          alert("We got a barcode\n" +
