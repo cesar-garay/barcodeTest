@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "COM.AAJTEST2PHONEGAP"
+        }
+    }
+}
