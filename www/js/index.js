@@ -27,13 +27,13 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        //document.getElementById('scanButton').addEventListener('click', this.scan, false);
+        document.getElementById('scanButton').addEventListener('click', this.scan, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
-  /*  scan: function() {
+    scan: function() {
       console.log("click scan");
 
       cordova.plugins.barcodeScanner.scan(
@@ -55,7 +55,7 @@ var app = {
          "orientation" : "landscape" // Android only (portrait|landscape), default unset so it rotates with the device
      }
   );
-},*/
+},
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     },
