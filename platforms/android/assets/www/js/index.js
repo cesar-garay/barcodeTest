@@ -35,9 +35,9 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     scan: function() {
       console.log("click scan");
-
+document.getElementById('target').innerHTML = 'start scan';
       cordova.plugins.barcodeScanner.scan(
-        document.getElementById('target').innerHTML = 'start scan';
+
      function (result) {
        document.getElementById('target').innerHTML = 'click scan';
          alert("We got a barcode\n" +
